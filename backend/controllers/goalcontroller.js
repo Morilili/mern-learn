@@ -1,6 +1,5 @@
 //when we use mongoose to interact with the database for these fucntions, we get back a promise
 const asyncHandler = require("express-async-handler");
-const mongoose = require('mongoose');
 
 const Goal = require("../models/goalmodels");
 // Good practice for description
