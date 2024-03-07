@@ -20,7 +20,6 @@ const goalSchema = mongoose.Schema(
     text: {
       type: String,
       required: [true, 'Please add a text value'],
-      unique: true,
     },
   },
   {
