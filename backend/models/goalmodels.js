@@ -24,7 +24,8 @@ const goalSchema = mongoose.Schema(
   },
   {
     timestamps: true,
-  }
+  },
+  { collection : 'mernlearn' }
 )
 
 module.exports = mongoose.model("Goal", goalSchema);
